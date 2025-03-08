@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenair{
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 3fr auto;
+   
+    
+}

@@ -1,0 +1,16 @@
+
+
+.passe{
+    background-image: url('../assetspaf/livre.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+
+.ContenuPasse{
+    margin: 5px 100px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}

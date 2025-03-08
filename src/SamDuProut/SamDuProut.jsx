@@ -1,0 +1,6 @@
+const SamDuProut =()=>{
+    return(<h1>hello</h1>)
+
+}
+
+export default SamDuProut

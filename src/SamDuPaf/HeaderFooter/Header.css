@@ -1,0 +1,35 @@
+.Header{
+    background-color: antiquewhite;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;    
+    justify-items: center;
+    column-gap: 10px;
+}
+
+
+
+
+
+
+.buttonHeader{
+    padding: 15px;
+    background-color: rgb(39, 39, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+
+.buttonHeader:hover{
+    background-color: rgb(77, 77, 250);
+}
+
+.titleHeader{
+    font-size: 50px;
+    grid-column: span 3;
+    text-align: center;
+}
+

@@ -1,9 +1,26 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import './App.css';
+import HomePage from './HomePage/HomePage';
+import SamDuPaf from './SamDuPaf/SamDuPaf'
+import SamDuProut from './SamDuProut/SamDuProut'
+
 
 function App() {
   return (
-   <p>hello</p>
+   <Router>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="paf" element={<SamDuPaf />} />
+      <Route path="prout" element={<SamDuProut />} />
+   
+
+      </Routes>
+        
+
+    
+   </Router>
+
   );
 }
 

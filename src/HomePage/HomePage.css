@@ -1,0 +1,48 @@
+img{
+    height:500px;
+}
+
+.all{
+    height: 100%;
+   display: grid;
+   grid-template-rows: 1fr 5fr ;
+    align-items: center;
+    justify-items: center;
+ 
+    background: linear-gradient(0deg, black,red);
+}
+
+.Button{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 7fr;
+    justify-items: center;
+   
+    
+}
+.buttonHome{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    font-size: 30px;
+}
+
+
+.goodsam, .badsam{
+    width:100% ;
+    display: flex;
+    justify-content: center;
+}
+
+.Photo{
+    grid-column: span 2;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
