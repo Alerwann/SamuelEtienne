@@ -1,9 +1,9 @@
-
+/* 
 .futurcontenair{
-    background-image: url('../assetspaf/livre.jpg'); 
+    background-image: url('./assets/livre.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .Contenufutur{
     margin: 25px 100px;

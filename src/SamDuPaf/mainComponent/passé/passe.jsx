@@ -1,10 +1,10 @@
 import './passe.css'
-import samjeune from'../assetspaf/samjeune.jpeg'
+import samjeune from'./samjeune.jpeg'
 
 const Passe = () =>{
     return(
 
-        <div className="passe">
+        <div className="back">
             <div className='ContenuPasse'>
                 <img className='samejeune' src={samjeune} alt="samuel etienne jeune" />
                 <div className='tableinfo'>

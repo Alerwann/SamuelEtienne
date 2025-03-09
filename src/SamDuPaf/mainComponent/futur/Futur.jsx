@@ -13,7 +13,7 @@ const Futur = () =>{
     
     
     return(
-        <div className='futurcontenair'> 
+        <div className='back'> 
         <div className='Contenufutur'>  
             <div className="retraite"
              onMouseEnter={()=>setIsHovered('journasam')}

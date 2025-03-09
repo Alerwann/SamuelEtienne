@@ -1,10 +1,10 @@
 import './SamDuPaf.css'
-import Header from './HeaderFooter/Header'
-import Footer from './HeaderFooter/Footer'
-import Passe from './passé/passe'
+import Header from './Header/Header'
+import Footer from './Footer/Footer'
+import Passe from './mainComponent/passé/passe'
 import React, { useState } from 'react'
-import Present from './présent/Present'
-import Futur from './futur/Futur'
+import Present from './mainComponent/présent/Present'
+import Futur from './mainComponent/futur/Futur'
 import Accueil from './Accueil/accueil'
 
 

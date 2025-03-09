@@ -3,18 +3,18 @@ import './HomePage.css'
 import {  useNavigate } from 'react-router-dom';
 import useSound from 'use-sound';
 
-import badsam from '../assets/badsam.png'; 
-import goodsam from '../assets/goodsam.png'
-import inter from '../assets/inter.png'
+import badsam from './assets/badsam.png'; 
+import goodsam from './assets/goodsam.png'
+import inter from './assets/inter.png'
 
-import paradis from '../assets/paradis.jpg'
-import enfer from '../assets/enfer.jpg'
-import basique from '../assets/choix.png'
+import paradis from './assets/paradisnuage.jpg'
+import enfer from './assets/enfer.jpg'
+import basique from './assets/choix.png'
 
 
 
-import feu from '../assets/feu.wav'
-import oiseau from '../assets/oiseauxplage.mp3'
+import evil from './assets/evil.mp3'
+import angel from './assets/Angels Singing.mp3'
 
 
 
@@ -29,8 +29,8 @@ const HomePage =()=>{
     const navigate = useNavigate();
 
 
-    const [playOrage, {stop: stopOrage}] = useSound(feu, { volume: 0.5 });
-    const [playOiseau, {stop:stopOiseau}] = useSound(oiseau, { volume: 0.5 });
+    const [playOrage, {stop: stopOrage}] = useSound(evil, { volume: 0.5 });
+    const [playOiseau, {stop:stopOiseau}] = useSound(angel, { volume: 0.5 });
     const [backgroundimage, setBackGround]= useState(basique)
 
     const handleChoice = (choice)=>{

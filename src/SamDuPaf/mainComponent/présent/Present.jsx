@@ -1,9 +1,9 @@
 import './present.css'
-import sampresent from '../assetspaf/sampresent.png'
+import sampresent from './sampresent.png'
 
 const Present = () =>{
     return(
-        <div className="present">
+        <div className="back">
         <div className='Contenupresent'>
             <img className='samactuel' src={sampresent} alt="samactuel" />
             <div className='tableinfopres'>

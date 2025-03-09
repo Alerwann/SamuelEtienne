@@ -8,5 +8,10 @@
     display: grid;
     grid-template-rows: auto 3fr auto;
    
-    
+   
+}
+.back{
+    background-image: url('./assetspaf/livre.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
