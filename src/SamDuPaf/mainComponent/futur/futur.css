@@ -1,12 +1,8 @@
-/* 
-.futurcontenair{
-    background-image: url('./assets/livre.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 
 .Contenufutur{
-    margin: 25px 100px;
+    padding-top: 40px;
+    margin: 0px 100px;
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
@@ -39,4 +35,28 @@
 }
 .darksam a{
     font-size: 40px;
+}
+
+.sonevil{
+    grid-column:2 span;
+  
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px  5px black;
+}
+
+.sonevil button{
+    padding:5px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 1px black;
+    font-size: 30px;
+}
+
+.sonevil button:hover{
+    background-color: bisque;
 }

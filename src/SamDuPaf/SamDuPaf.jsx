@@ -1,40 +1,39 @@
 import './SamDuPaf.css'
 import Header from './Header/Header'
-import Footer from './Footer/Footer'
 import Passe from './mainComponent/passé/passe'
-import React, { useState } from 'react'
+import React from 'react'
 import Present from './mainComponent/présent/Present'
 import Futur from './mainComponent/futur/Futur'
-import Accueil from './Accueil/accueil'
+import { useNavigate, useSearchParams } from 'react-router-dom'
 
 
 
 const SamDuPaf =()=>{
-    const [activeContent, setActiveContent]=useState('accueil')
+   const [searchParams]=useSearchParams();
+   const component =searchParams.get('component')
+   const navigate =useNavigate()
 
-    const handleNavClick=(content)=>{
-        setActiveContent(content)
-    }
-    return(
+   let SelectComponent = null
 
-        
-        <div className='contenair'>
-
-        <Header onNavClick={handleNavClick} />
-        {activeContent==='accueil' && <Accueil/>}
-        {activeContent==='passe' && <Passe/>}
-        {activeContent==='present' && <Present/>}
-        {activeContent==='futur' && <Futur/>}
-        <Footer/>
+   switch(component){
+    case 'passe': SelectComponent=Passe;
+    break;
+    case 'present': SelectComponent=Present;
+    break;
+    case 'futur': SelectComponent=Futur;
+    break;
+    default: SelectComponent=()=><div>Component non troouvé</div>
+   }
+   return(
+    <div>
+        <Header/>
+        <SelectComponent/>
+    
        
-        
-        
-        
-        </div >
 
-
-
-    )
+    </div>
+ 
+   )
 }
 
 export default SamDuPaf

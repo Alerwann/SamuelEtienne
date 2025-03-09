@@ -1,0 +1,27 @@
+.accueilpaf{
+    background-image: url('./assets/voyant.jpg');
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    background-position: center;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accueilpaf h2{
+    color: rgb(235, 226, 226);
+    -webkit-text-stroke: 2px rgb(12, 12, 12);
+    font-size: 60px;
+}
+
+.choixbouton{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

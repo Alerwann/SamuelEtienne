@@ -1,12 +1,7 @@
-/* 
-.present{
-    background-image: url('../0assetspaf/livre.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 
 .Contenupresent{
-    margin: 5px 100px;
+    margin: 0px 100px;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -18,18 +13,30 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(121, 150, 248);
+    box-shadow: 10px 10px 15px 3px rgb(10, 31, 153);
 }
 .tableinfopres p
 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 20px;
     font-weight: bold;
+   
 }
 
 .tableinfopres a{
     text-decoration: none;
+    cursor: pointer;
 }
+
+.tableinfopres a:visited{
+    color: aliceblue;
+}
+
+
 
 .samactuel{
     border-radius: 15px;

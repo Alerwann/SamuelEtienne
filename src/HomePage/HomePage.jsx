@@ -71,7 +71,7 @@ return(
         onMouseEnter={()=>handleChoice('samse')}
         onMouseLeave={()=>{setIsHovered(null); stopOiseau(); setBackGround(basique)}}>
         
-        <button className='buttonHome' onClick={()=>{navigate('/paf'); stopOiseau()}}
+        <button className='buttonHome' onClick={()=>{navigate('paf/accueil'); stopOiseau()}}
         >Sam du paf</button>
         
     </div>
