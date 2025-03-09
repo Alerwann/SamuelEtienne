@@ -1,0 +1,42 @@
+
+.futurcontenair{
+    background-image: url('../assetspaf/livre.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contenufutur{
+    margin: 25px 100px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.Contenufutur p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.samphoto{
+    grid-column: span 2;
+}
+
+.eviljournasam{
+    border-radius: 15px;
+    height:400px;
+}
+
+.retraite{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.darksam{
+    justify-items: center;
+}
+.darksam a{
+    font-size: 40px;
+}

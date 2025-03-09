@@ -1,41 +1,85 @@
 import React, {useState} from 'react';
 import './HomePage.css'
+import {  useNavigate } from 'react-router-dom';
+import useSound from 'use-sound';
+
 import badsam from '../assets/badsam.png'; 
 import goodsam from '../assets/goodsam.png'
 import inter from '../assets/inter.png'
-import { useNavigate } from 'react-router-dom';
+
+import paradis from '../assets/paradis.jpg'
+import enfer from '../assets/enfer.jpg'
+import basique from '../assets/choix.png'
+
+
+
+import feu from '../assets/feu.wav'
+import oiseau from '../assets/oiseauxplage.mp3'
+
+
+
+
 
 
 const HomePage =()=>{
+
+
     const [isHovered, setIsHovered] = useState(null);
-    const navigate = useNavigate()
+    const [activesound, setActiveSound]=useState(false)
+    const navigate = useNavigate();
 
-    const pafClick = ()=>{
-        navigate('/paf')
-    }
 
-    const proutClick=()=>{
-        navigate('/prout')
-    }
+    const [playOrage, {stop: stopOrage}] = useSound(feu, { volume: 0.5 });
+    const [playOiseau, {stop:stopOiseau}] = useSound(oiseau, { volume: 0.5 });
+    const [backgroundimage, setBackGround]= useState(basique)
+
+    const handleChoice = (choice)=>{
+        setIsHovered(choice)
+        if (choice==='samse'){
+            setBackGround(paradis)
+            if(activesound===true){
+                playOiseau()}
+             }
+             else{
+                setBackGround(enfer)
+                if(activesound===true)
+                playOrage()
+            }
+         
+       
+        }
+    
+
+
 
 return(
-    <div className='all'>
     
-    <h2>Quel version de Samuel veux tu apprendre à connaitre?</h2>
+    <div className='all'  style={{backgroundImage :`url(${backgroundimage})` }}>
+
+    <div className='son'>
+        <h3 className='question'>Activer le son</h3>
+        <button onClick={()=>setActiveSound(true)}>oui</button>
+        <button onClick={()=>setActiveSound(false)}>non</button>
+    </div>
+
+    <h2 className='Homequestion'>Quel version de Samuel veux tu apprendre à connaitre?</h2>
+   
+    
     <div className='Button'>
 
     <div className="goodsam"
-        onMouseEnter={()=>setIsHovered('samse')}
-        onMouseLeave={()=>setIsHovered(null)}>
+        onMouseEnter={()=>handleChoice('samse')}
+        onMouseLeave={()=>{setIsHovered(null); stopOiseau(); setBackGround(basique)}}>
         
-        <button className='buttonHome' onClick={pafClick}
+        <button className='buttonHome' onClick={()=>{navigate('/paf'); stopOiseau()}}
         >Sam du paf</button>
         
     </div>
     
-    <div className="badsam" onMouseEnter={()=>setIsHovered('badsam')}
-         onMouseLeave={()=>setIsHovered(null)}> 
-         <button className='buttonHome' onClick={proutClick}
+    <div className="badsam"  
+        onMouseEnter={()=>handleChoice('badsam')}
+         onMouseLeave={()=>{setIsHovered(null); stopOrage(); setBackGround(basique)}}> 
+         <button className='buttonHome' onClick={()=> {navigate('/prout');stopOrage() }}
         >Sam du prout</button>
     </div>
 
@@ -43,26 +87,14 @@ return(
         <img src=
         {
             isHovered==='samse'? goodsam:
-            isHovered==='badsam'? badsam:
-            inter
+            isHovered==='badsam'? badsam:inter
         }
          alt="" />
     
     
-   </div> 
+    </div> 
 </div>
-
-   
-  
- 
 </div>
-    
-
- 
-    
- 
-   
-   
 )
 }
 

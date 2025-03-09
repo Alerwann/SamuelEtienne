@@ -3,13 +3,16 @@ img{
 }
 
 .all{
+    background-size: cover; /* Ajuste l'image pour couvrir tout le fond */
+    background-position: center; /* Centre l'image */
+    min-height: 100vh;
     height: 100%;
    display: grid;
    grid-template-rows: 1fr 5fr ;
     align-items: center;
     justify-items: center;
  
-    background: linear-gradient(0deg, black,red);
+   
 }
 
 .Button{
@@ -42,7 +45,28 @@ img{
     grid-column: span 2;
 }
 
-h2{
+.Homequestion{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
+    -webkit-text-stroke: 1px rgb(194, 241, 24);
+    
+}
+.son{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 100% 5% 100% 5% / 30% 0% 30% 0% ;
+    justify-items: center;
+
+}
+
+.question{
+grid-column: span 2;
+font-size: 30px;
+}
+
+.son button{
+    width: 50px;
 }

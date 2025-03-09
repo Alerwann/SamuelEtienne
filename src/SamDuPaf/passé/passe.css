@@ -12,5 +12,32 @@
     margin: 5px 100px;
     display: grid;
     justify-items: center;
+    align-items: center;
+
     grid-template-columns: 1fr 1fr;
+}
+
+.samejeune{
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.tableinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.tableinfo p{
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+font-weight: bold;
+}
+
+.tableinfo h2{
+    padding-top: 5px;
 }

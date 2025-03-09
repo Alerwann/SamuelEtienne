@@ -1,0 +1,43 @@
+
+.present{
+    background-image: url('../assetspaf/livre.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Contenupresent{
+    margin: 5px 100px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr;}
+
+.tableinfopres{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.tableinfopres p
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tableinfopres a{
+    text-decoration: none;
+}
+
+.samactuel{
+    border-radius: 15px;
+    height: 600px;
+    width: 400px;
+}
+
+.samhe{
+    font-size: 40px !important;
+
+}
