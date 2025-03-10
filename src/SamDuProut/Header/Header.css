@@ -1,0 +1,51 @@
+.headersampr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right,rgb(172, 171, 171), rgb(46, 46, 46));
+    background-size: 400% 400%; /* Agrandir le dégradé pour l'animation */
+    animation: gradientAnimation 10s ease infinite; /* Animation de 10 secondes */
+
+}
+nav{
+    width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* justify-content: center; */
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: rgb(4, 235, 93);
+    -webkit-text-stroke: 2px black;
+}
+
+li button{
+    padding: 2px 15px;
+    font-size: 20px;
+    background-color: rgb(4,235,93);
+    box-shadow: 2px 2px 1px ;
+}
+
+li button:hover{
+    background-color: rgb(126, 240, 171);
+}
+
+
+@keyframes gradientAnimation{
+    0% {
+        background-position: 0% 50%; /* Position initiale du dégradé */
+      }
+      50% {
+        background-position: 100% 50%; /* Déplacement du dégradé */
+      }
+      100% {
+        background-position: 0% 50%; /* Retour à la position initiale */
+      }
+}

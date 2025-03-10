@@ -5,6 +5,8 @@ import HomePage from './HomePage/HomePage';
 import SamDuPaf from './SamDuPaf/SamDuPaf'
 import SamDuProut from './SamDuProut/SamDuProut'
 import Accueil from './SamDuPaf/Accueil/accueil';
+import Orgasampr from './SamDuProut/orgasampr/orgasampr';
+
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Route path='paf/accueil' element={<Accueil/>}/>
       <Route path="paf" element={<SamDuPaf />} />
       <Route path="prout" element={<SamDuProut />} />
+      <Route path="/prout/accueil" element={<Orgasampr/>} />
+
    
 
       </Routes>

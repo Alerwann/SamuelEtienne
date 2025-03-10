@@ -21,7 +21,13 @@
 
 .choixbouton{
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+}
+
+.partir{
+    grid-column: 3 span;
+    background-color: rgb(6, 167, 207);
+    box-shadow: 5px 5px 15px 15px wheat;
 }

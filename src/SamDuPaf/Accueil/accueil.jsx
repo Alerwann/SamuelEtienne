@@ -4,7 +4,7 @@ import React from 'react';
 
 
 
-const Accueil = ({onNavClick})=>{
+const Accueil = ()=>{
  const navigate =useNavigate()
 
     const handleClick= (component)=>{
@@ -19,6 +19,7 @@ return(
             <button className='buttonHeader' onClick={()=>handleClick('passe')}>Passé</button>
             <button className='buttonHeader' onClick={()=>handleClick('present')}>Présent</button>
             <button className='buttonHeader' onClick={()=>handleClick('futur')}>Futur</button>
+            <button className='buttonHeader partir' onClick={()=>navigate('/')} >Laissez moi partir</button>
             </div>
             
     </div>

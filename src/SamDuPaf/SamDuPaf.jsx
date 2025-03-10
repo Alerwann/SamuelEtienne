@@ -4,14 +4,14 @@ import Passe from './mainComponent/passé/passe'
 import React from 'react'
 import Present from './mainComponent/présent/Present'
 import Futur from './mainComponent/futur/Futur'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 
 
 
 const SamDuPaf =()=>{
    const [searchParams]=useSearchParams();
    const component =searchParams.get('component')
-   const navigate =useNavigate()
+ 
 
    let SelectComponent = null
 

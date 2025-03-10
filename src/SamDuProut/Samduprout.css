@@ -1,0 +1,92 @@
+.accueilProut{
+    background-image: url('./assets/proutacc.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.verifacces{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.questionacces{
+    grid-column: 2 span;
+    color: aliceblue;
+    -webkit-text-stroke: 3px rgb(12, 12, 12);
+    font-size: 60px;
+    
+}
+
+.accesproutbouton{
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    border-radius: 5% 100% 5% 100% / 56% 47% 53% 44% ;
+    background-color: rgb(221, 6, 250);
+    box-shadow: 5px 5px 20px 10px gray;
+      
+}
+
+.accesproutbouton:hover{
+    box-shadow: 5px 5px 20px 10px rgb(221, 6, 250);
+    background-color: gray;
+}
+
+.non{
+    height: 30px;
+}
+
+.ultimverif{
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.voulu{
+   
+    border-radius: 50% 50% 50% 50% / 0 0 100% 100% ;
+    background: radial-gradient(circle at center, rgb(0, 0, 255), black);
+    color: aliceblue;
+  
+}
+
+.voulu:active{
+  
+   border-radius:  50% 50% 50% 50% /  100% 100% 0 0}
+
+.annuler{
+    background: radial-gradient(circle at center, rgb(30, 51, 121), rgb(0, 194, 253));
+    border-radius:  50% 50% 50% 50% /  100% 100% 0 0;
+    
+   }
+
+.annuler:active{
+    border-radius: 50% 50% 50% 50% / 0 0 100% 100% ;
+}
+
+.annuler, .voulu{
+    font-size: 50px;
+    padding: 35px; 
+    height: 180px;
+    width: 380px;
+    box-shadow: 5px 5px 15px 10px white;
+
+}
+
+.annuler:hover, .voulu:hover{
+    box-shadow: 5px 5px 15px 10px rgb(241, 4, 4);
+}
