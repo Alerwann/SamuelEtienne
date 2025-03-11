@@ -1,0 +1,26 @@
+.liensR{
+  justify-items: center;
+    align-items: center;
+}
+
+.liensR img{
+    height: 200px;
+}
+
+.liensR p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.liensolo{
+    background-color: aqua;
+    margin: 20px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px ;
+}

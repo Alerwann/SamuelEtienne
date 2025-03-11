@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 const SamDuProut =()=>{
-    const [continueState, setContinueState]= useState(true)
+    const [continueState, setContinueState]= useState(false)
      const navigate =useNavigate()
 
 
