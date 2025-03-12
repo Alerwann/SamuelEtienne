@@ -1,6 +1,10 @@
 .liensR{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
   justify-items: center;
     align-items: center;
+   
 }
 
 .liensR img{
@@ -20,7 +24,8 @@
     flex-direction: row;
     justify-items: center;
     align-items: center;
+   
     padding: 15px;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px ;
+    box-shadow: 15px 15px 15px 5px rgb(206, 11, 11) ;
 }
