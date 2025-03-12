@@ -11,7 +11,7 @@ import Orgasampr from './SamDuProut/orgasampr/orgasampr';
 
 function App() {
   return (
-   <Router basename='/SamuelEtienne/'>
+   <Router basename='/SamuelEtienne'>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path='paf/accueil' element={<Accueil/>}/>
