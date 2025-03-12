@@ -1,0 +1,60 @@
+.contenairlJeux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: rgb(156, 153, 153);
+}
+
+.titleljeux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleljeux h2{
+    font-size: 40px;
+}
+.filterchoice{
+    display:grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+    ;
+}
+
+.filterchoice label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.filterchoice input{
+    padding: 5px 15px;
+}
+
+.Listejeux{
+    display: grid;
+    grid-auto-flow:row ;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+  
+    gap: 30px;
+}
+
+.jeux{
+   display: flex;
+   flex-direction: column;
+   gap: 15px   ;
+
+   padding: 25px 50px;
+   align-items: center;
+   border-radius: 17% 83% 17% 83% / 83% 17% 83% 17%;
+
+}
+.dateJeux{
+    font-size: 20px;
+}
+
+.nomJeux{
+    font-size: 25px;
+    font-weight: 700;
+}
+

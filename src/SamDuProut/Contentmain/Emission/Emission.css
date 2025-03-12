@@ -1,0 +1,89 @@
+.contenairEmission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.titleEmission{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titleEmission h2{
+    background: linear-gradient(90deg, #fd2104, #aa08f5); 
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     display: inline-block;
+     font-size: 55px;
+}
+
+
+.titleEmission h3{
+    font-size: 35px;
+}
+
+.listEmission{
+    margin: 50px 10px;
+    display: grid;
+    grid-auto-flow:row ;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+
+    gap: 50px;
+}
+
+.Emission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px 15px;
+    gap: 20px;
+    text-align: center;
+    background: radial-gradient(ellipse at center,  rgb(235, 92, 92), rgb(70, 69, 69) );
+    height: 100%;
+    width: 100%;
+    box-shadow: 10px 10px 20px 5px ;
+    border-radius: 15px;    
+}
+
+
+.Emission p{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.emissionNom{
+    font-size: 45px !important;
+    color: white !important;
+    -webkit-text-stroke: black 2px;
+}
+.descriptionTooltip {
+    visibility: hidden;
+    width: 500px;
+    background-color: #6518f5;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+   font-size: 30px;
+    height: 4em;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.Emission:hover .descriptionTooltip {
+    visibility: visible;
+    opacity: 1;
+}

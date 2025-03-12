@@ -26,7 +26,7 @@ export const listeJeux =
           Rejou: true
         },
         {
-          nom: "Sea ofthieves",
+          nom: "Sea of thieves",
           date: "24/01/2024",
           Rejouer: true
         },
@@ -151,7 +151,7 @@ export const listeJeux =
           "Rejouer": false
         },
         {
-          "nom": "Gta rp²",
+          "nom": "Gta rp",
           "date": "10/12/2023",
           "Rejouer": true
         },

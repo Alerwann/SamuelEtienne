@@ -1,0 +1,62 @@
+.titleEvent{
+    text-align: center;
+}
+
+.titleEvent h2{
+    font-size: 55px;
+    
+
+     background: linear-gradient(90deg, #fd2104, #aa08f5); 
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     display: inline-block;
+}
+.titleEvent h3{
+    font-size: 35px;
+}
+
+.listEvent{
+    margin: 50px 10px;
+    display: grid;
+    grid-auto-flow:row ;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+
+    gap: 50px;
+    
+}
+
+.evenement{
+    text-align: center;
+    justify-content: center;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    
+    background-color: rgb(131, 214, 240);
+
+    height: 100%;
+    width: 100%;
+
+    border-radius: 1% 100% 0% 100% / 85% 15% 85% 15% ;
+}
+
+.eventName{
+    font-size: 40px !important;
+    font-weight: 600 !important;
+}
+
+.nameCrea{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(79, 19, 243);
+}
+
+.evenement p{
+    font-size:25px ;
+
+}
