@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/SamuelEtienne/static/css/main.142b18ba.css",
+    "main.js": "/SamuelEtienne/static/js/main.be38bb6f.js",
+    "static/js/885.f1f0d251.chunk.js": "/SamuelEtienne/static/js/885.f1f0d251.chunk.js",
+    "static/js/453.19ddb046.chunk.js": "/SamuelEtienne/static/js/453.19ddb046.chunk.js",
+    "static/media/choix.png": "/SamuelEtienne/static/media/choix.56057b19a3265dc5d2cf.png",
+    "static/media/evil.mp3": "/SamuelEtienne/static/media/evil.f917fb965cc44bdd8a1e.mp3",
+    "static/media/journal sam.png": "/SamuelEtienne/static/media/journal sam.ec67f15fe29dca645915.png",
+    "static/media/enfer.jpg": "/SamuelEtienne/static/media/enfer.755e42b394d2a791c37f.jpg",
+    "static/media/badsam.png": "/SamuelEtienne/static/media/badsam.5900d1145d87ba53eedb.png",
+    "static/media/goodsam.png": "/SamuelEtienne/static/media/goodsam.4ad54a4e061d77a3340a.png",
+    "static/media/evil sam.png": "/SamuelEtienne/static/media/evil sam.0796ef49cdd7de2b6c6e.png",
+    "static/media/sampresent.png": "/SamuelEtienne/static/media/sampresent.62946447d3b14d0bf6bd.png",
+    "static/media/Angels Singing.mp3": "/SamuelEtienne/static/media/Angels Singing.deedff46bdad20c68a92.mp3",
+    "static/media/paradisnuage.jpg": "/SamuelEtienne/static/media/paradisnuage.832a0a0e6e24702416d2.jpg",
+    "static/media/proutacc.jpg": "/SamuelEtienne/static/media/proutacc.169bb09e24dff87e0f5a.jpg",
+    "static/media/voyant.jpg": "/SamuelEtienne/static/media/voyant.5d9c9dc5b5d6584b0cdb.jpg",
+    "static/media/evilrire.mp3": "/SamuelEtienne/static/media/evilrire.8d2e4e4f8c02827a8b73.mp3",
+    "static/media/inter.png": "/SamuelEtienne/static/media/inter.66cbfa47cc5a1b2ccc18.png",
+    "static/media/logoinsta.png": "/SamuelEtienne/static/media/logoinsta.1900870353afe9ad0147.png",
+    "static/media/logox.png": "/SamuelEtienne/static/media/logox.fcb1e095b6ea82823614.png",
+    "static/media/logoytb.png": "/SamuelEtienne/static/media/logoytb.834e52dc7b4768b4222a.png",
+    "static/media/logotiktok.png": "/SamuelEtienne/static/media/logotiktok.c052a411d1d52c1827f7.png",
+    "index.html": "/SamuelEtienne/index.html",
+    "main.142b18ba.css.map": "/SamuelEtienne/static/css/main.142b18ba.css.map",
+    "main.be38bb6f.js.map": "/SamuelEtienne/static/js/main.be38bb6f.js.map",
+    "885.f1f0d251.chunk.js.map": "/SamuelEtienne/static/js/885.f1f0d251.chunk.js.map",
+    "453.19ddb046.chunk.js.map": "/SamuelEtienne/static/js/453.19ddb046.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.142b18ba.css",
+    "static/js/main.be38bb6f.js"
+  ]
+}
