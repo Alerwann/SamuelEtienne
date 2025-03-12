@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SamuelEtienne/static/css/main.142b18ba.css",
-    "main.js": "/SamuelEtienne/static/js/main.be38bb6f.js",
+    "main.js": "/SamuelEtienne/static/js/main.5d2db3cd.js",
     "static/js/885.f1f0d251.chunk.js": "/SamuelEtienne/static/js/885.f1f0d251.chunk.js",
     "static/js/453.19ddb046.chunk.js": "/SamuelEtienne/static/js/453.19ddb046.chunk.js",
     "static/media/choix.png": "/SamuelEtienne/static/media/choix.56057b19a3265dc5d2cf.png",
@@ -24,12 +24,12 @@
     "static/media/logotiktok.png": "/SamuelEtienne/static/media/logotiktok.c052a411d1d52c1827f7.png",
     "index.html": "/SamuelEtienne/index.html",
     "main.142b18ba.css.map": "/SamuelEtienne/static/css/main.142b18ba.css.map",
-    "main.be38bb6f.js.map": "/SamuelEtienne/static/js/main.be38bb6f.js.map",
+    "main.5d2db3cd.js.map": "/SamuelEtienne/static/js/main.5d2db3cd.js.map",
     "885.f1f0d251.chunk.js.map": "/SamuelEtienne/static/js/885.f1f0d251.chunk.js.map",
     "453.19ddb046.chunk.js.map": "/SamuelEtienne/static/js/453.19ddb046.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.142b18ba.css",
-    "static/js/main.be38bb6f.js"
+    "static/js/main.5d2db3cd.js"
   ]
 }
