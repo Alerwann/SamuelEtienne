@@ -37,6 +37,7 @@ const Futur = () =>{
                 <p>Sa présence sur le petit écran n'est pas éternelle...</p>
                 <p>Il n'a pas de CDI pour question pour un champion...</p>
                 <p>Un jour ou l'autre nous ne le verront plus le petit écran...</p>
+                <p>Mais qui sait, un jour il pourrait être Président</p>
             </div>
 
             <div className='darksam'

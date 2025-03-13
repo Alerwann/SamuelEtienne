@@ -36,12 +36,12 @@ export const listeJeux =
           Rejouer: false
         },
         {
-          nom: "Fc 24",
+          nom: "FC 24",
           date: "04/02/2024",
           Rejouer: false
         },
         {
-          nom: "Baldur’s gate3",
+          nom: "Baldur’s gate 3",
           date: "12/02/2024",
           Rejouer: false
         },
@@ -76,20 +76,16 @@ export const listeJeux =
           "Rejouer": true
         },
         {
-          "nom": "Nba 2k24",
+          "nom": "NBA 2k24",
           "date": "07/04/2024",
           "Rejouer": false
         },
         {
-          "nom": "Pubg",
+          "nom": "PUBG",
           "date": "08/04/2024",
           "Rejouer": false
         },
-        {
-          "nom": "Pubg",
-          "date": "21/04/2024",
-          "Rejouer": true
-        },
+    
         {
           "nom": "GT7",
           "date": "24/04/2024",
@@ -106,7 +102,7 @@ export const listeJeux =
           "Rejouer": true
         },
         {
-          "nom": "Fallout76",
+          "nom": "Fallout 76",
           "date": "06/01/2025",
           "Rejouer": false
         },
@@ -151,7 +147,7 @@ export const listeJeux =
           "Rejouer": false
         },
         {
-          "nom": "Gta rp",
+          "nom": "GTA rp",
           "date": "10/12/2023",
           "Rejouer": true
         },
@@ -261,7 +257,7 @@ export const listeJeux =
           "Rejouer": false
         },
         {
-          "nom": "Ff14",
+          "nom": "Final Fantasy XIV",
           "date": "20/10/2024",
           "Rejouer": true
         },
@@ -276,7 +272,7 @@ export const listeJeux =
           "Rejouer": false
         },
         {
-          "nom": "soulcalibur",
+          "nom": "Soulcalibur",
           "date": "15/10/2023",
           "Rejouer": false
         },
@@ -291,7 +287,7 @@ export const listeJeux =
           "Rejouer": false
         },
         {
-          "nom": "Super Smash Bros",
+          "nom": "Super Smash Bross",
           "date": "27/08/2023",
           "Rejouer": false
         },

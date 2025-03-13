@@ -25,7 +25,7 @@ export const listeemission =[
     },
     {
       "Nom": "Parole Est Tienne",
-      "Description": "L’ancêtre de MVP regarder pour vérif",
+      "Description": "Échange avec la communauté sur un sujet précis",
       "Premier": "30/01/2021",
       "Dernier": "03/04/2021",
       "Nombre": "3",
@@ -49,7 +49,7 @@ export const listeemission =[
     },
     {
       "Nom": "L’hebdo est tienne",
-      "Description": "A regarder avant de décrire",
+      "Description": "Débat avec 3 invités sur l'actualité de la semaine",
       "Premier": "26/08/2022",
       "Dernier": "15/12/2023",
       "Nombre": "66",
@@ -57,7 +57,7 @@ export const listeemission =[
     },
     {
       "Nom": "Time out",
-      "Description": "Le meilleur jeu de quizz de Twitch.",
+      "Description": "Quizz de culture générale avec des streamer et dernièrement des viewer",
       "Premier": "13/12/2023",
       "Dernier": "21/11/2024",
       "Nombre": "11",

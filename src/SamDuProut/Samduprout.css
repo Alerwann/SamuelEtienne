@@ -44,6 +44,7 @@
 .accesproutbouton:hover{
     box-shadow: 5px 5px 20px 10px rgb(221, 6, 250);
     background-color: gray;
+    cursor: pointer;
 }
 
 .non{
@@ -89,4 +90,5 @@
 
 .annuler:hover, .voulu:hover{
     box-shadow: 5px 5px 15px 10px rgb(241, 4, 4);
+    cursor: pointer;
 }

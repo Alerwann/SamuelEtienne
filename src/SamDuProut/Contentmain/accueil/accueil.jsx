@@ -10,7 +10,7 @@ const Accueilvnet =()=>{
     const { Indice, setIndice } = useContext(IndiceContext)
 
     const indiceincre =()=>{
-      setIndice(Indice+1)
+      setIndice(Indice+3)
     }
 
     

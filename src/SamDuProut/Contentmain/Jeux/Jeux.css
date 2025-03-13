@@ -4,6 +4,7 @@
     align-items: center;
     gap: 25px;
     background-color: rgb(156, 153, 153);
+    height: 100%;
 }
 
 .titleljeux{
@@ -12,13 +13,25 @@
     align-items: center;
 }
 .titleljeux h2{
-    font-size: 40px;
+    font-size: 55px;
+    
+
+    background: linear-gradient(90deg, #fd2104, #aa08f5); 
+    -webkit-text-stroke: black 1px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
 }
 .filterchoice{
     display:grid ;
     grid-template-columns: 1fr 1fr;
-    gap: 10px
-    ;
+    gap: 10px ;
+    background-color: rgb(161, 160, 158);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 10px 10px greenyellow;
+    margin-bottom: 20px;
 }
 
 .filterchoice label{
@@ -47,6 +60,7 @@
    padding: 25px 50px;
    align-items: center;
    border-radius: 17% 83% 17% 83% / 83% 17% 83% 17%;
+   box-shadow: 5px 8px 10px 10px;
 
 }
 .dateJeux{
